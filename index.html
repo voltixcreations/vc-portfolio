@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voltix Creations - Tech Startup Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Voltix Creations Logo" width="150"> <!-- Replace with your logo -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <!-- CTA Buttons in Navbar -->
+                <div class="ms-3">
+                    <a href="https://wa.me/yourphonenumber" class="btn btn-success me-2"><i class="fab fa-whatsapp"></i> WhatsApp</a> <!-- Replace with your WhatsApp number, e.g., https://wa.me/1234567890 -->
+                    <a href="https://instagram.com/yourusername" class="btn btn-primary me-2"><i class="fab fa-instagram"></i> Instagram</a> <!-- Replace with your IG profile -->
+                    <a href="mailto:youremail@example.com" class="btn btn-secondary"><i class="fas fa-envelope"></i> Email</a> <!-- Replace with your email -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="jumbotron text-center bg-primary text-white py-5">
+        <div class="container">
+            <h1 class="display-4">Welcome to Voltix Creations</h1>
+            <p class="lead">Innovative tech solutions: From custom web development to DIY tech products and tutorials.</p>
+            <a href="#contact" class="btn btn-light btn-lg">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p>Voltix Creations is a dynamic tech startup specializing in creative digital services and innovative products. Our team delivers high-quality web development, graphic design, video editing, photo editing, and color grading. We also create practical tech products like homemade air purifiers and offer "how-to-make" video tutorials to empower makers.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Custom websites and apps tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Graphic Designing</h5>
+                            <p class="card-text">Stunning visuals, logos, and branding materials.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Video Editing & Color Grading</h5>
+                            <p class="card-text">Professional edits and color enhancements for your videos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Photo Editing</h5>
+                            <p class="card-text">Retouching and enhancements for perfect images.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Products</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="images/air-purifier.jpg" class="card-img-top" alt="Homemade Air Purifier"> <!-- Replace with your image -->
+                        <div class="card-body">
+                            <h5 class="card-title">Homemade Air Purifier</h5>
+                            <p class="card-text">Affordable, DIY-friendly air purifier for clean indoor air. Built with simple components for easy assembly.</p>
+                            <a href="#contact" class="btn btn-primary">Inquire Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="images/tutorial-video.jpg" class="card-img-top" alt="How-to-Make Videos"> <!-- Replace with your image -->
+                        <div class="card-body">
+                            <h5 class="card-title">How-to-Make Tutorial Videos</h5>
+                            <p class="card-text">Step-by-step video guides on building tech products like air purifiers. Available for purchase and instant download.</p>
+                            <a href="https://yourpaymentlink.com" class="btn btn-success">Buy Now - $9.99</a> <!-- Replace with your sales link, e.g., Gumroad or Stripe -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <p class="text-center">Ready to collaborate? Reach out via your preferred method.</p>
+            <div class="text-center">
+                <a href="https://wa.me/yourphonenumber" class="btn btn-success btn-lg me-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="https://instagram.com/yourusername" class="btn btn-primary btn-lg me-2"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="mailto:youremail@example.com" class="btn btn-secondary btn-lg"><i class="fas fa-envelope"></i> Email</a>
+            </div>
+            <!-- Optional Contact Form -->
+            <form class="mt-4">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button> <!-- Add JS or backend for functionality -->
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Voltix Creations. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
