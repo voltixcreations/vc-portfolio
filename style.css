@@ -1,0 +1,20 @@
+/* Add any custom styles here */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background-color: #007bff; /* Blue theme for tech feel */
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.navbar-brand img {
+    max-height: 50px; /* Adjust logo size */
+}
